@@ -1,0 +1,25 @@
+{
+  "name": "generic-api-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:api:users": "npx playwright test tests/userApi.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.3",
+    "allure-playwright": "^3.3.0"
+  },
+  "dependencies": {
+    "@types/pino": "^7.0.4",
+    "pino": "^9.7.0",
+    "pino-http": "^10.5.0",
+    "pino-pretty": "^13.0.0"
+  }
+}
