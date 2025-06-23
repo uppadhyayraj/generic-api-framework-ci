@@ -1,6 +1,9 @@
 # .github/workflows/api-tests.yml
 name: API Test Automation CI
 
+#trigger conditions
+# This workflow will run on pushes and pull requests to the main and develop branches.
+# It will not run on other branches or tags.
 on:
   push:
     branches:
